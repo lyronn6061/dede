@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>La page de Liron</title>
+        <style>
+            body {
+                background-color: lightgray;
+            }
+        </style>
+        <script>
+            console.log('salut!!!!!!!!!!!');
+            var colors = ["#FF0000", "#00FF00", "#0000FF", "#34F67A", "#b33ce0"];
+            function changeColor() {
+                var color = colors[Math.floor(Math.random() * colors.length)];
+                document.body.style.backgroundColor = color;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            Bienvenue sur ma page!
+        </h1>
+        J'ai une page <a href="http://youtube.com">youtube super!</a>
+        <p>
+            change la couleur en bleu <button onclick="changeColor()">ici</button>
+        </p>
+    </body>
+</html>
