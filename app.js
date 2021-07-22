@@ -74,4 +74,4 @@ return alert("looser😈😈😈")
 // var numeroATrouver = Number(prompt("What is the number?"));
 // var pari = Number(prompt(`In how many attempts will the number ${numeroATrouver} be?`));
 
-chanceAuDe();
+// chanceAuDe();
